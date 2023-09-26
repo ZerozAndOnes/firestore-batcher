@@ -5,9 +5,9 @@
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "compile": "tsc",
     "install": "tsc",
-    "prepublish": "npm run build",
+    "prepublish": "npm run compile",
     "prettier": "prettier src *.md .github",
     "format": "npm run prettier -- --write",
     "test": "npm run prettier -- --check"
