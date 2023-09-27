@@ -41,5 +41,8 @@
   },
   "peerDependencies": {
     "firebase-admin": ">=11"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
