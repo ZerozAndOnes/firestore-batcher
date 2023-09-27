@@ -1,12 +1,12 @@
 {
-  "name": "@zao/firestore-batcher",
-  "version": "1.0.0",
+  "name": "@zaoz/firestore-batcher",
+  "version": "1.0.1",
   "description": "Batching Firestore operations without the hassle",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "prettier": "prettier src *.md .github",
     "format": "npm run prettier -- --write",
     "test": "npm run prettier -- --check"
